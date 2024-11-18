@@ -4,7 +4,7 @@ export default function Profile(props){
         <table>
             <tr>
                 <td rowSpan={7}>
-                    <img className="profile" src = {require('../assests/img/1.jpg')} alt="profile picture" />
+                    <img className="profile" src = {require('../assests/img/'+props.stu.profilePic)} alt="profile" />
                 </td>
                 <td>ID {props.stu.studentId}</td>
                 </tr>
